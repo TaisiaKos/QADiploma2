@@ -62,7 +62,7 @@ public class DataGenerator {
     @DisplayName("Successful transaction credit by card - 200")
     void shouldApprovedCredit200() {
         var card = DataHelper.getApprovedCardAPI();
-        String path = "/api/v1/pay";
+        String path = "/api/v1/credit";
         int apiStatus = 200;
         returnResponse(card, path, apiStatus);
 
@@ -75,7 +75,7 @@ public class DataGenerator {
     @DisplayName("No successful transaction credit by card - 500")
     void shouldDeclinedCredit500() {
         var card = DataHelper.getDeclinedCardAPI();
-        String path = "/api/v1/pay";
+        String path = "/api/v1/credit";
         int apiStatus = 500;
         returnResponse(card, path, apiStatus);
 
