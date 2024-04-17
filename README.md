@@ -2,7 +2,7 @@
 # 1. Клонируем репозиторий
 - открываем дипломный проект на `GutHub` `https://github.com/TaisiaKos/QADiploma2`;
 - копируем ссылку на репозиторий;
-- для клонирования репозитория на локальную машину, выполняем в терминали команду `git clone git@github.com:TaisiaKos/Diploma2.git`;
+- для клонирования репозитория на локальную машину, выполняем в терминали команду `git clone git@github.com:TaisiaKos/QADiploma2.git`;
 - открываем проект в `Intelligent Idea`.
 
 # 2. Настройка проекта
