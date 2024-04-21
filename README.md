@@ -9,13 +9,9 @@
 - установка `Docker`;
 - установка, запуск и сборка контейнеров командой `docker-compose up --build` в терминале;
 - запуск веб-сервиса:
-1. Для для mysql `java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar`
-1. Для postgresql
 `java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar`.
 
 # 3. Запуск автотестов
-1. Для mysql `./gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app"`.
-1. Для postgresql
 `./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app"`.
 
 # 4. Получение отчета
