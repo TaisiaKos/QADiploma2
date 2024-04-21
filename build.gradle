@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id "io.freefair.lombok" version "8.2.2"
     id 'io.qameta.allure' version '2.11.2'
 }
 
@@ -32,6 +31,11 @@ dependencies {
     testImplementation 'commons-dbutils:commons-dbutils:1.7'
     testImplementation 'org.postgresql:postgresql:42.7.1'
     testImplementation 'io.qameta.allure:allure-selenide:2.20.1'
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
 }
 
 test {
